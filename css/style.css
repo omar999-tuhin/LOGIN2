@@ -1,0 +1,102 @@
+body{}
+header{
+    background: #8fdced;
+}
+.container{
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    overflow: hidden;
+    margin: auto;
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+ul li{}
+nav ul li a{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+nav ul li a img{
+    width: 34px;
+    display: inline-block;
+}
+.form-design{
+    /* height: 800px; */
+    /* background: black; */
+    display: flex;
+}
+.left{
+    width: 40%;
+    background: #2a6366;
+}
+.right{
+    width: 60%;
+    background: #327787;
+    flex: 1 0 18%;
+    padding: 75px 250px;
+}
+form{
+    /* box-sizing: border-box; */
+    flex: 0 0 30%;
+    padding: 0px 25px;
+    margin: -11px 0px;
+}
+input{
+    margin-bottom: 9px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 8px -28px;
+    border: none;
+}
+.right p{
+    color: white;
+}
+.right h1 {
+    max-width: 450px;
+    color: white;
+    margin: 6px 1px 27px;
+}
+b{
+    font-size: 26px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.left img{
+    max-width: 41%;
+    margin-top: 200px;
+    padding: 5px 136px;
+}
+.x{
+    flex: -1 25%;
+    display: inline-block;
+    padding-top: 10px;
+}
+.x a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.x p{
+    display: inline-block;
+}
